@@ -25,7 +25,6 @@ Difficile -> Choix nombre entre 1 et 100. 3 essais
 
 Afficher à la fin du jeu tous les nombres essayés par l'utilisateur */
 //**********  EX2 **********/
-const secretNumber = Math.floor(Math.random() * 100) + 1;
 
 dificulty= prompt("enter the dificulty mode you wanna play in(easy/medium/hard)").toLowerCase()
 
@@ -101,8 +100,6 @@ Afficher dans une balise p le fameux "c'est plus, c'est moins, c'est gagné". Si
 Afficher aussi au fur et à mesure la liste des essais de mon utilisateur */
 
 /******** EX3 ********/
-
-const secretNumber = Math.floor(Math.random() * 100) + 1;
 
 dificulty= prompt("enter the dificulty mode you wanna play in(easy/medium/hard)").toLowerCase()
 
